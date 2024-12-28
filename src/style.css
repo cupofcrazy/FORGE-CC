@@ -1,0 +1,85 @@
+:root {
+  --foreground: #202020;
+  --background: #fff;
+  --accent: #001eff;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+#app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1.app-title {
+  font-size: 1rem;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  line-height: 1;
+  padding: .5rem 1rem .5rem 1rem;
+  border-bottom-right-radius: .75rem;
+  background-color: var(--accent);
+  color: var(--background);
+}
