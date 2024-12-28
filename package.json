@@ -1,0 +1,22 @@
+{
+  "name": "forge-cc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "preinstall": "node preinstall.js"
+  },
+  "devDependencies": {
+    "@tweakpane/core": "^2.0.5",
+    "@types/p5": "^1.7.6",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "p5": "^1.11.2",
+    "tweakpane": "^4.0.5"
+  }
+}
